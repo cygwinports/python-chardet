@@ -1,13 +1,10 @@
-ORIG_PN="python2-chardet"
-inherit distutils
+inherit python-distutils
 
 NAME="python-chardet"
-VERSION=2.0.1
-RELEASE=2
+VERSION=2.2.1
+RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python character encoding detection library"
 DESCRIPTION="Character encoding auto-detection in Python 2 and 3."
-HOMEPAGE="http://chardet.feedparser.org/"
-SRC_URI="http://chardet.feedparser.org/download/${ORIG_PN}-${PV}.tgz"
-# website is down
-SRC_URI="mirror://gentoo/${ORIG_PN}-${PV}.tgz"
+
+ARCH=noarch
