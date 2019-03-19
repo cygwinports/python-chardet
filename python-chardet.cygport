@@ -1,7 +1,7 @@
 inherit python-wheel
 
 NAME="python-chardet"
-VERSION=2.3.0
+VERSION=3.0.4
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python character encoding detection library"
@@ -9,4 +9,4 @@ DESCRIPTION="Character encoding auto-detection in Python 2 and 3."
 
 ARCH=noarch
 
-python3_chardet_CONTENTS="usr/bin/chardetect ${python3_chardet_CONTENTS}"
+python37_chardet_CONTENTS+=" usr/bin/chardetect"
